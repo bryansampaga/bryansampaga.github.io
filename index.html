@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>briTech Solutions</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        /* Set font family to Georgia */
+        body {
+            font-family: Georgia, serif;
+        }
+
+        /* Animation for the main text */
+        #main-text {
+            animation: slideInFromLeft 1s ease-out forwards;
+        }
+
+        /* Animation for the list items */
+        .points li {
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+            animation-delay: 0.5s; /* Delay for each list item */
+        }
+
+        /* Animation for the testimonial */
+        #testimonial {
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+            animation-delay: 1s; /* Delay for the testimonial */
+        }
+
+        /* Add a box around Mission and Vision */
+        .box {
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Keyframes for animations */
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header id="main-header">
+        <img id="logo" src="images/B-teeth.png" width="200" height="200">
+    </header>
+
+    <div id="main-text">
+        <h1>Welcome to briTech Solutions</h1>
+        <h3>briTech your first ever full stack helper.</h3>
+    </div>
+
+    <div id="sub-1">
+        <div class="box">
+            <h2>Mission:</h2>
+            <p>
+                "To empower individuals and businesses with innovative technological solutions, fostering growth, efficiency, and success in an ever-evolving digital landscape. We strive to deliver cutting-edge products and services that enhance productivity, connectivity, and sustainability, while maintaining a commitment to excellence, integrity, and customer satisfaction."
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Vision:</h2>
+            <p>
+                "To be a global leader in technology, driving positive change and shaping the future through our innovative solutions. We envision a world where technology seamlessly integrates into every aspect of life, empowering individuals and organizations to thrive in a digitally connected society. Through relentless innovation, collaboration, and a dedication to excellence, we aim to revolutionize industries, transform experiences, and inspire a brighter, more sustainable future for generations to come."
+            </p>
+        </div>
+
+        <footer class="content-footer">
+            <h3>More About Us</h3>
+            <p>
+                Britech Solutions is a dynamic technology company dedicated to providing innovative solutions tailored to meet the evolving needs of businesses and individuals worldwide. With a passion for excellence and a commitment to driving positive change through technology, we strive to deliver cutting-edge products and services that empower our clients to succeed in today's digital age.
+            </p>
+        </footer>
+    </div> <!-- /.sub-1 -->
+
+    <div id="sub-2">
+        <form id="contact-form">
+            <header id="content-header">
+                <h3>Contact Us</h3>
+                <p>
+                    For comments and suggestions, please use the following form. Don't forget to enter a valid email address.
+                </p>
+            </header>
+
+            <div>
+                <label>Name<span class="required">*</span></label>
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label>Email<span class="required">*</span></label>
+                <input type="email" required>
+            </div>
+
+            <div>
+                <label>Company</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Phone</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <em>* Required Fields</em>
+                <input type="submit" value="Get In Touch">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="content-footer">
+                <p>
+                    We will never use any of our subscribers information for anything unspecified.
+                </p>
+            </div>
+        </form>
+    </div> <!-- /.sub-2-->
+
+    <div class="clearfix"></div>
+    <div id="testimonial">
+        <img src="images/testimonial.png" width="85" height="85" alt="Customer Testimonial">
+        <blockquote>
+            "I've been working with Britech Solutions for a while now, and I must say, their dedication to excellence is truly impressive. The team at Britech consistently delivers innovative solutions tailored to our specific needs, helping us stay ahead in our industry. Their expertise and professionalism have been invaluable to our success. I highly recommend Britech Solutions to anyone looking for reliable and cutting-edge technology solutions."<strong>- Bryan Sampaga <em>briTech Solutions</em></strong>
+        </blockquote>
+    </div>
+
+    <footer id="main-footer">
+        <p>
+            Copyright &copy; 2024
+        </p>
+    </footer>
+
+</div> <!-- /.container -->
+</body>
+</html>

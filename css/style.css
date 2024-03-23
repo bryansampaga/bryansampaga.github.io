@@ -1,0 +1,261 @@
+body {
+	background: url(../images/texture.jpg) repeat;
+	font-family: 'Playfair', sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+#container {
+	width: 80%;
+	margin: 100px auto;
+	padding: 100px;
+	background: #ebebec;
+	overflow: auto;
+	border-radius:20px;
+}
+
+p {
+	margin: 10px 0;
+	line-height: 1.5em;	
+}
+
+h1 {
+	font-size: 39px;
+	font-weight: bold;
+	margin: 20px 0 10 0;
+	line-height: 1.2em
+}
+
+h3 {
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+h4 {
+	font-size: 19px;
+	margin: 10px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* ==================================
+					Top of Page / Header
+   ================================== */
+
+#main-header {
+	border-bottom: 4px solid #4ea0d8;
+}
+
+#logo {
+	margin: auto;
+	display: block;	
+}
+
+#main-text {
+	text-align: center;
+	color: #333;
+	padding: 30px auto;
+	margin-bottom: 20px;
+}
+
+/* ==================================
+					Left Column (points)
+   ================================== */
+
+#sub-1 {
+	float: left;
+	width: 48%;
+}
+
+.points li {
+	margin-bottom: 30px;
+}
+
+.points img {
+	float: left;
+	margin-right: 7px;
+}
+
+.points h4 {
+	padding-top: 5px;
+}
+
+.content-footer {
+	border-top: #ddd solid 2px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+/* ==================================
+					Right Column (form)
+   ================================== */
+
+#sub-2 {
+	float: right;
+	width: 48%;
+}
+
+#contact-form {
+	padding: 20px 25px 25px 25px;
+	border: 3px solid #1f75ad;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: auto;
+	background: #8b9dc3;
+}
+
+#content-header {
+	border-top: #ddd solid 1px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#contact-form div {
+	margin-bottom: 20px;
+}
+
+#contact-form label {
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+}
+
+#contact-form input[type='text'], #contact-form input[type='email'] {
+	border: #603333 1px solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 25px;
+	width: 65%;
+}
+
+#contact-form input[type='submit'] {
+	padding: 12px 17px;
+	color: #000000;
+	background: #6afa3e;
+	border: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	margin: 0px auto;
+}
+
+#contact-form input[type='submit']:hover {
+	background: #0b5409;
+	cursor: pointer;
+}
+
+#contact-form .content-footer p {
+	font-style: italic;
+	text-align: center;
+	color: #666;
+	font-size: 80%;
+}
+
+/* ==================================
+					Testimonial
+   ================================== */
+
+#testimonial {
+	margin: 40px 0;
+	font-style: italic;
+	color: #666;	
+}
+
+#testimonial img {
+	float: left;
+	margin-right: 20px;
+}
+
+
+/* ==================================
+					Main Footer
+   ================================== */
+
+#main-footer {
+	text-align: center;
+	border-top: #ccc solid 1px;
+	color: #aaa;
+}
+
+/* ==================================
+					Media Query
+   ================================== */
+
+@media(max-width: 960px) {
+	#container {
+		width: 80%;
+	}
+
+	h1 {
+		font-size: 33px;
+	}
+
+	#sub-1, #sub-2 {
+		float: none;
+		width: 100%;
+	}
+
+	.points li {
+		background: #ccc;
+		padding: 8px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	.points img {
+		margin-top: 7px;
+	}
+
+	#testimonial img {
+		float: none;
+		margin: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media(max-width: 568px) {
+	h1 {
+		font-size: 22px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
